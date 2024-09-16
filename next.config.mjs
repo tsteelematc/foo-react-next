@@ -2,7 +2,8 @@
 const nextConfig = {
     output: "export",
     reactStrictMode: true,
-    basePath: "/foo-react-next/docs"
+    basePath: "/foo-react-next",
+    assetPrefix: "/foo-react-next/"
 };
 
 export default nextConfig;
